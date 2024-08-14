@@ -1,3 +1,18 @@
+Identifying Pollution Hotspots in NJ
+We looked into the NJ by county daily data from 2018- 2023 to try to understand What counties in NJ show higher levels of air pollution? Why do these areas have the high rates of pollution that they do?
+
+Installations that are needed to run our results
+$ pip install import-ipynb
+$ pip install calplot
+$ pip install plotly
+
+Datafiles and api keys
+The csv files (data files) used in this analysis are in our Resources folder and the apikeys for running the real time air quality index is in the git ignore file 
+
+Main Jupyter Notebook
+To run our analysis use FinalAQI.ipynb jupyter notebook
+
+
 Questions:
 What counties in NJ show higher levels of air pollution? Why do these areas have the high rates of pollution that they do?
 
