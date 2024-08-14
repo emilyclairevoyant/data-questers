@@ -1,15 +1,24 @@
-Identifying Pollution Hotspots in NJ
+**Identifying Pollution Hotspots in NJ**
+
+
 We looked into the NJ by county daily data from 2018- 2023 to try to understand What counties in NJ show higher levels of air pollution? Why do these areas have the high rates of pollution that they do?
 
-Installations that are needed to run our results
-$ pip install import-ipynb
-$ pip install calplot
-$ pip install plotly
+**Installations that are needed to run our results**
 
-Datafiles and api keys
-The csv files (data files) used in this analysis are in our Resources folder and the apikeys for running the real time air quality index is in the git ignore file 
 
-Main Jupyter Notebook
+```$ pip install import-ipynb```
+
+```$ pip install calplot```
+
+```$ pip install plotly```
+
+**Datafiles and api keys**
+
+
+The csv files (data files) used in this analysis are in our Resources folder and the apikeys for running the real time air quality index, the geo views map is in the git ignore file 
+
+**Main Jupyter Notebook**
+
 To run our analysis use FinalAQI.ipynb jupyter notebook
 
 
@@ -52,22 +61,30 @@ What could be one area that air pollution impacts NJ? (ex. Agricultural emission
 Work and Visualization Done: Looked at cost per emission for agricultural industry sectors in NJ, shown with pie chart or the most and least affected cost-wise.
 Answer: Air pollution does not only affect us in seemingly more obvious ways, but there are other figurative and literal costs.
                   
-Final Observations:
+**Final Observations:**
+
 Amongst 16 NJ counties in dataset, 7 counties had mean and max AQIs above the others.
+
 Overall Good and Moderate and relatively less unhealthy days.
+
 There seems to be relationship between Defining Parameters and AQI scores
 Ozone and PM2.5 highly contributed to defining parameter count; PM2.5 seemingly more relevant over time than Ozone as PM2.5 contributed more to unhealthy category.
+
 Most of the healthy days were during summertime; potential to dig deeper (ex. Temp, human activities, fires, etc.)
+
 Some counties with top GHG emissions did not appear in top AQI score list, likely due to type of emission 
+
 Though not cause for major immediate concern now, still keep an eye on air quality as climate change is still a concern
 
-Advancements:
+**Advancements:**
+
 Potential health impacts of air pollution in NJ (ex. Lung-related illness rates)
 More potential influencing factors to AQI score in NJ (ex. Transportation, population density, migration within NJ, proximity to airports)
 Explore other areas in USA with concerning air quality and potential contributing factors.
 Predictive modeling eventually (machine learning)
 
-Sources:
+**Sources:**
+
 https://aqs.epa.gov/aqsweb/airdata/download_files.html#AQI
 https://aqicn.org/api/
 https://aqicn.org/json-api/doc/
