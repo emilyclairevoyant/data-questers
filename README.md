@@ -17,6 +17,11 @@ We looked into the NJ by county daily data from 2018- 2023 to try to understand 
 
 The csv files (data files) used in this analysis are in our Resources folder and the apikeys for running the real time air quality index, the geo views map is in the git ignore file 
 
+**Final Presentation and Analysis Document**
+
+
+To look at our Final presentation please refer Data Questers Presentation 1.pptx and the analysis and conclusion document is Analysis and Conclusions.docx
+
 **Main Jupyter Notebook**
 
 To run our analysis use FinalAQI.ipynb jupyter notebook
